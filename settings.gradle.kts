@@ -24,4 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Tharow Manager"
 include(":app")
-include(":tachiyomi-sources-api")
+include(":hidden-api")
+include(":shell")

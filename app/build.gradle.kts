@@ -36,11 +36,12 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    dynamicFeatures += setOf(":shell")
 }
 
 dependencies {
 
-    compileOnly(project(":tachiyomi-sources-api"))
+    compileOnly(project(":hidden-api"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
